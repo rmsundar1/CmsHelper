@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Rmsundar_CmsHelper>
+			<version>1.0.0</version>
+		</Rmsundar_CmsHelper>
+	</modules>
+	<global>
+		<models>
+			<cmshelper>
+				<class>Rmsundar_CmsHelper_Model</class>
+			</cmshelper>
+		</models>
+		<cms>
+			<page>
+				<tempate_filter>cmshelper/template_filter</tempate_filter>
+			</page>
+			<block>
+				<tempate_filter>cmshelper/template_filter</tempate_filter>
+			</block>
+		</cms>
+	</global>
+</config>
